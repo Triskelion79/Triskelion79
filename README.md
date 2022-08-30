@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Triskelion79
 - 👀 I’m interested in webdev
-- 🌱 I’m currently learning Full Stack via Codecademy
+- 🌱 I’m currently learning Front End via Codecademy
 - 💞️ I’m looking to collaborate on nothing yet, still a newbie
 - 📫 How to reach me through here (is that a thing?)
 
