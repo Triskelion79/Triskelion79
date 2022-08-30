@@ -1,0 +1,178 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 22px;
+color: seashell;
+background-color: black;
+opacity: 0.9;
+text-align: center;
+margin:0;
+}
+h2 h4 h5 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: seashell;
+    text-align: center;
+  
+}
+/*header section*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 69px;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.9;
+    border-bottom: 1px solid seashell;
+    flex-wrap: row;
+    }
+.logo {
+    height: 50px;
+    padding: 10px;
+    float: left;
+    }
+    ul {
+        text-align: left;
+        height: 100%; 
+        margin: 5;
+        display: inline;
+        list-style-type: none;
+        margin: 10;
+        padding: 5;
+    }
+    
+     li {
+        display: inline;
+        text-decoration: underline;
+        color: seashell;
+        text-align-last: center;
+        padding: 5; 
+     }
+     .ul li:hover {
+     color:  yellow
+     }
+/* body */
+body {
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+/*mission section*/
+.mission-banner {
+    background-image:url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg); ;
+    background-position: center;
+    position: static;
+    margin: 25px;
+    max-width: 1200px;
+    height: 500px;
+    padding: 5px;
+    color: seashell;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    position:relative;
+    flex-wrap: wrap;
+    }
+    .mission-banner .text {
+        background-size: cover;
+        height: auto;
+        margin: auto;
+        flex-wrap: wrap;
+        background-color: black;
+        opacity: 0.8;
+        font-size: 22px;
+        background-color: black;
+        color: seashell;
+    }
+/*tea of the month section*/
+
+.teaofthemonth-box /*fallberry spicedrum  donuts myrtle bedford*/ {
+background-color: black;
+flex-direction: column;
+text-align: center;
+margin:auto;
+max-width: 1200px;
+padding: 15px;
+border: 5px;
+display:flex;
+align-items: center;
+justify-content: flex-end;
+flex-flow:column
+}
+.teaofthemonth-img {
+    margin: 0px 20px; 
+    flex-flow: column wrap;
+    height: 220px;
+    width: 300px;
+    margin: 0px 20px; 
+}
+.teaofthemonth-pic {
+    flex-flow: column wrap;
+    display: flex;
+    
+}
+
+//* <!-- section location --> */
+
+.location {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    display: flex;
+    justify-content: space-around;
+    max-height: 500px;
+    width: 100%;
+    max-width: 1200px;
+    justify-items: center;
+    flex-flow: column wrap;
+    
+}
+.place {
+    font-size: 40px;
+    margin-bottom: 0px;
+    top: 300px;
+}
+
+.locationcontent {
+    display: flex;
+    justify-items: space-around;
+    justify-content: space-around;
+    width: 75%;
+    background-color: transparent;
+}
+
+.place {
+    background-color: transparent;
+}
+
+.locationtitle h1{
+    max-width: 300px;
+    max-height: 300px;
+    margin: 0px 20px; 
+    
+}
+
+.left,
+.middle,
+.right {
+    width: 300px;
+    min-height: 100px;
+    margin: 15px 40px 100px;
+    opacity: 1;
+} 
+
+/* footer section */
+
+.contact {
+    display: flex;
+    justify-content: center;
+    max-height: 200px;
+    flex-direction: column;
+}
+    
+.copyright {
+    display: inline-flex;
+    justify-content: flex-end;
+}
